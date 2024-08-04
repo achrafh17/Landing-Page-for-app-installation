@@ -1,0 +1,328 @@
+body {
+  background-image: url("bg-header-desktop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+.toppart {
+  margin-left: 10%;
+  margin-top: 15vh;
+  padding-right: 10%;
+}
+#copyright {
+  margin-left: 45%;
+}
+#principaltext {
+  font-size: 50px;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 500;
+  color: hsl(210, 10%, 33%);
+  text-align: center;
+}
+#descriptiontext {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: -25px;
+  color: hsl(201, 11%, 66%);
+}
+/*butttons--------------------------------------------*/
+.buttons {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 30px;
+  margin-top: 100px;
+}
+#ios {
+  width: 275px;
+  height: 60px;
+  border-radius: 35px;
+  background-color: hsl(171, 66%, 44%);
+  border: none;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+}
+#mac {
+  width: 275px;
+  height: 60px;
+  border-radius: 35px;
+  background-color: hsl(233, 100%, 69%);
+  border: none;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+}
+/*text in the button------------------------------------------------*/
+#downloadios {
+  color: white;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+#downloadmac {
+  color: white;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+/*text under buttons--------------------------------------------------*/
+#keep {
+  color: hsl(210, 10%, 33%);
+  font-size: 40px;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 200px;
+}
+#description-under-keep {
+  color: hsl(201, 11%, 66%);
+  font-size: 20px;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+/*second part  with the imac image--------------------------------------*/
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  margin-top: 5%;
+}
+/*features of the app----------------------------------------------------*/
+.appfeatures {
+  margin-top: -50px;
+}
+.quickSearch {
+  margin-right: 45%;
+}
+#quicksearch {
+  color: hsl(210, 10%, 33%);
+  font-size: 30px;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 700;
+}
+#quicksearch-description {
+  color: hsl(201, 11%, 66%);
+  font-size: 20px;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 500;
+  margin-top: -20px;
+}
+.icloudSync {
+  margin-right: 45%;
+  margin-top: 60px;
+}
+#icloudSync {
+  color: hsl(210, 10%, 33%);
+  font-size: 30px;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 700;
+}
+#icloudSync-description {
+  color: hsl(201, 11%, 66%);
+  font-size: 20px;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 500;
+  margin-top: -20px;
+}
+.completehistory {
+  margin-right: 45%;
+  margin-top: 60px;
+}
+#completehistory {
+  color: hsl(210, 10%, 33%);
+  font-size: 30px;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 700;
+}
+#completehistory-description {
+  color: hsl(201, 11%, 66%);
+  font-size: 20px;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 500;
+  margin-top: -20px;
+}
+.accessclipboard {
+}
+#accessclipboard {
+  color: hsl(210, 10%, 33%);
+  font-size: 40px;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 200px;
+}
+#accessclipboard-description {
+  color: hsl(201, 11%, 66%);
+  font-size: 20px;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  padding-left: 30%;
+  padding-right: 30%;
+  margin-top: -20px;
+}
+/*devices pictures-------------------------------------------------------*/
+#devices {
+  margin-left: 17%;
+  margin-top: 90px;
+}
+/*the text under the devices pictures---------------------------------------*/
+.supercharge {
+}
+#supercharge {
+  color: hsl(210, 10%, 33%);
+  font-size: 40px;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 100px;
+}
+#supercharge-description {
+  color: hsl(201, 11%, 66%);
+  font-size: 20px;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  padding-left: 30%;
+  padding-right: 30%;
+  margin-top: -20px;
+}
+/*The functions of the App---------------------------------------------*/
+.functions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+  margin-left: -120px;
+}
+.blacklist {
+}
+#function {
+  color: hsl(210, 10%, 33%);
+  font-size: 30px;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+#function-description {
+  color: hsl(201, 11%, 66%);
+  font-size: 18px;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+#icons-blacklist {
+  margin-left: 45%;
+  width: 50px;
+  height: 50px;
+}
+#icons-plaintext {
+  margin-left: 40%;
+  width: 50px;
+  height: 50px;
+}
+#icons-sneakpreview {
+  margin-left: 40%;
+  width: 50px;
+  height: 40px;
+}
+/*Companies Logo-----------------------------------*/
+.companiesLogo {
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 130px;
+}
+/*text under the companies logo*/
+.app-installlation {
+  margin-top: 200px;
+}
+#clipbord-ios-mac {
+  color: hsl(210, 10%, 33%);
+  font-size: 40px;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 100px;
+}
+#installation {
+  color: hsl(201, 11%, 66%);
+  font-size: 20px;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  padding-left: 25%;
+  padding-right: 25%;
+  margin-top: -20px;
+}
+/* buttons in the bottom*/
+/*same style as the bottom on the top*/
+/*------------------------------*/
+/*footer*/
+footer {
+  margin-left: 0;
+  background-size: cover;
+  margin-top: 100px;
+  background-color: hsl(195, 4%, 82%);
+  width: 100%;
+  height: 250px;
+}
+.eleements-footer {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+}
+#footerinformation {
+  color: hsl(210, 10%, 33%);
+  font-size: 20px;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+}
+#footerinformation:hover {
+  color: hsl(171, 66%, 44%);
+}
+
+#install {
+  color: hsl(210, 10%, 33%);
+  font-size: 20px;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 500;
+  margin-top: -18px;
+  cursor: pointer;
+}
+#install:hover {
+  color: hsl(171, 66%, 44%);
+}
+/*social media logo footer*/
+.social-media-logo {
+  gap: 30px;
+  display: flex;
+  margin-left: 90px;
+}
+#socialmedialogo {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+#socialmedialogo:hover {
+  
+  filter: brightness(0) saturate(100%) invert(72%) sepia(41%) saturate(7499%) hue-rotate(132deg) brightness(89%) contrast(101%);
+
+}
